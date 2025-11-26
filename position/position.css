@@ -1,0 +1,43 @@
+/* 
+     Propiedad position:
+
+     - Static
+     - Relative
+     - Absolute
+     - Fixed
+     - Sticky
+     - z-index
+*/
+
+.caja-1 {
+     /* position: static; */
+     /*
+     con la propiedad estatic no sirven las demas propiedades (top, left, bottom, right) ya questatic es el valor por defecto que tiene el contenido  
+     top: ; 
+     left: ;
+     bottom: ;
+     right: ; */
+
+     /* 
+     en la propiedad position relative solo se pueden utilizar 2 propiedades sea top y left o top y right ó bottom y left o bottom y right solo se pueden esas 2 condicciones ya que solo se utiliza una propiedad vertical y una horizontal en cualquiera de las dos combinaciones
+
+     position: relative;
+     top: 100px;  
+     left: 100px;
+     bottom: 100px;
+     right: 100px; */
+}
+
+/*concepto de posicion de apilamiento: 
+     z-index: es una propiedad CSS que controla el orden de apilamiento de elementos que se superponen en la página web.Determina qué elemento aparece delante de otro en el eje Z (profundidad), similar a cómo apilarías objetos en la vida real. Para que z-index funcione, el elemento debe tener una propiedad position diferente de static. Los valores numéricos más altos se mostrarán más cerca del espectador (en la parte superior), mientras que los valores más bajos aparecerán detrás.  ejemplo: 1,2,3 el orden seria 3,2,1 por el numero mas grande de x-index
+
+     Funcionamiento principal
+     Orden de apilamiento: Establece el orden de los elementos en el eje Z, que es la profundidad en un espacio 3D, de modo que los elementos con un z-index mayor se apilan encima de los que tienen un z-index menor. 
+     Requisito de position: Solo se aplica a elementos con una propiedad position que no sea static (como relative, absolute, fixed o sticky). 
+     Valores: Acepta números enteros, que pueden ser positivos, negativos o cero. 
+     Comportamiento predeterminado: Si no se establece un z-index, el orden se determina por el orden de aparición en el código fuente HTML. Los elementos que aparecen más abajo en el código se mostrarán encima de los que aparecen antes. 
+     Ejemplos
+     Contenedor A: con z-index: 3 aparecerá encima de Contenedor B con z-index: 2. 
+     Un elemento con z-index: -1 aparecerá detrás de elementos con el z-index predeterminado de 0 (o sin definir). 
+
+*/
