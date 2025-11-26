@@ -1,0 +1,159 @@
+/* .img_example{
+     border: 20px solid black;
+     padding: 50px;
+     margin: 50px;
+} */
+
+*{
+     box-sizing: border-box;
+}
+
+/* .img_example{
+     /* border: 25px groove blue; grosor de borde, tipo de borde, color del borde 
+     border-left: 25px dotted pink;
+     border-right: 70px solid blue;
+     border-top: 10px groove yellow;
+     border-bottom: 500px dashed red;
+     padding: 100px;
+     margin: 0 0 0 0; Arriba, Derecha, Abajo, Izquierda
+} 
+
+/* .parrafo{
+     background-color: aqua;
+     /* min-width: 300px;
+     min-height: 200px; 
+     /* max-width: 500px;
+     max-height: 1000px; 
+     width: 100%;
+     height: auto;
+} 
+
+.parrafo{
+     background-color: aqua;
+     /* height: 1000px;
+     width: auto; 
+     /* max-width: 600px;
+     max-height: 300px; 
+     /* min-height: 100px;
+     min-width: 100px; 
+     height: 100px;
+     overflow: auto;
+}
+
+.parrafo_2{
+     background-color: aquamarine;
+     max-height: 200px;
+     max-width: 200px;
+     overflow: auto; /*Se pone automaticacmente couando reconoce si hay  mucho tecto o poco texto y hay define si poner scroll o no
+}
+
+.contenedor{
+     background-color: aqua;
+     width: 300px;
+     height: 300px;
+     border: solid red;
+     margin: 50px;
+}
+
+.contenedor--borde_1{
+     /* border-top-width: 100px;
+     border-right-width: 40px;
+     border-bottom-width: 40px;
+     border-left-width: 40px; 
+     border-width: 100px 50px 100px 40px;
+}
+
+.contenedor--borde_2{
+     /* border-top-width: 100px;
+     border-right-width: 40px;
+     border-bottom-width: 40px;
+     border-left-width: 40px; 
+     border-width: 100px;
+}
+
+.contenedor--borde_3{
+     /* border-top-width: 100px;
+     border-right-width: 40px;
+     border-bottom-width: 40px;
+     border-left-width: 40px; 
+     border-width: 40px 100px; /*Arriba - Abajo / Derecha - Izquierda
+     
+}
+
+.container{
+     background-color: black;
+     width: 800px;
+     height: 600px;
+}
+
+.container1{
+     background-color: yellow;
+     width: 100%;
+     height: 200px;
+}
+
+.container2{
+     background-color: blue;
+     width: 100%;
+     height: 200px;
+}
+
+.container3{
+     background-color: red;
+     width: 100%;
+     height: 200px;
+}*/
+
+/* .cuadro_1{
+     background-color: red;
+     /*box-sizing: content-box; Muestra la caja por su tamaño por defecto y lo que aria es que se le sumarian al tamaño original y no se calcularian
+     width: 200px; 
+     height: 200px;
+     padding: 20px;
+     border: 20px solid;
+}
+
+.cuadro_2{
+     background-color: red;
+     /*box-sizing: border-box; Calcula Las dimensiones para que mantenga su tamaño original
+     width: 200px;
+     height: 200px;
+     padding: 20px;
+     border: 20px solid;
+} */
+
+/*
+     block -> elemeto que ocupa todo el ancho del contenedor
+     inline -> elemento que solo ocupa su propio ancho
+     inline-block -> Combina las características de ambos. Los elementos se colocan uno al lado del otro como inline, pero se les puede aplicar propiedades de ancho y alto como a un block
+*/
+
+.texto{
+     background-color: lightcoral;
+     display: none; /*Este oculta el elemento pero sigue estando hay asi sea de bloque o linea*/
+}
+
+.link{
+     background-color: lightcoral;
+     display: block; /*con los elementos que son de linea los convierte en bloque*/
+}
+
+.parrafo{
+     background-color: blue;
+     display: inline; /*con los elementos que son de bloque los convierte en linea*/
+}
+
+/* .link_2{
+     background-color: yellow;
+     display: inline-block; convierte los elementos en bloque o en linea pero manteniedo su forma original si es en linea o en bloque ej: si es linea con el inline blick se convierte en bloque pero el elemento seguiria siendo de linea, lo mismo pero lo contrario con bloque con inline block lo convierte en linea pero sigue siendo de bloque
+     width: 150px;
+     height: 150px;
+} */
+
+.parrafo_2{
+     background-color: aqua;
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+}
+
